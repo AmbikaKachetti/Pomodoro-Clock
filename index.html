@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>POMODORO TIMER</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- global icon -->
+    <link rel="icon" href="./sand-clock (2).png">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <h1>POMODORO</h1>
+            <div class="panel">
+                <p id="work" class="active">work</p>
+                <p id="break">break</p>
+            </div>
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes">25</p>
+                        <p>:</p>
+                        <p id="seconds">00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="control">
+                <button id="start" onclick="start()"><i class="fa fa-play" aria-hidden="true"></i></button>
+                <a id="reset" href=""><i class="fa fa-undo" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
